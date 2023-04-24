@@ -6,9 +6,7 @@ This is the repository for the model developed and proposed in the paper: "Quick
 This model only requires a standard computer with enough RAM to support in-memory operations.
 
 ## Software Requirements
-Running the model code requires MATLAB R2018a or newer (recommendation). Install MATLAB according to MathWorks installation guide [here](https://www.mathworks.com/help/install/install-products.html).
-
-CHECK THE VERSION OF MATLAB YOU HAVE ON THE DESKTOP
+Running the model code requires MATLAB R2021a or newer (recommendation). Install MATLAB according to MathWorks installation guide [here](https://www.mathworks.com/help/install/install-products.html).
 
 # Initializing and User Instructions
 1. Open MATLAB.
@@ -32,4 +30,4 @@ CHECK THE VERSION OF MATLAB YOU HAVE ON THE DESKTOP
 - plot 8B - Maxwell_Model_plot.m
 
 # Software License
-© THE COPYRIGHT STATEMENT
+©Copyright 2023 University of Florida Research Foundation, Inc. All Commercial Rights Reserved.

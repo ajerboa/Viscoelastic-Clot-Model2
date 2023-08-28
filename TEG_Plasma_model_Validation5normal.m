@@ -108,13 +108,12 @@ for i=1:10
  
 %Exp vs Estimate 
     figure (2) 
-    subplot(5,2,i)
+    subplot(2,5,i)
     plot(TimeM,Y_exp,'k',T,Y_est_G,'LineWidth',4)
     grid on; box on
     ylim([0 80])
-    ylabel('Amp. [mm]')
     str = ['R^{2} = ',num2str(round(R(i,3),3))];
-    text(5,55,str);
+    text(5,75,str);
     str = ['Plasma Sample ',num2str(i)];
     title(str)
     figureHandle = gcf;
@@ -123,12 +122,12 @@ for i=1:10
 
 end
 legend('Experiment','Estimation','Location','northwest')
-xlabel('Time [min]')
+subplot(2,5,8); xlabel('Time [min]')
+subplot(2,5,1);  ylabel('Amplitude [mm]')
+subplot(2,5,6);  ylabel('Amplitude [mm]')
 set(findall(figureHandle,'type','text'),'fontSize',FontSizeNum)
 set(gca,'FontName','Helvetica','FontSize',FontSizeNum)
 figure (2) 
-subplot(5,2,i-1)
-xlabel('Time [min]')
 set(findall(figureHandle,'type','text'),'fontSize',FontSizeNum)
 set(gca,'FontName','Helvetica','FontSize',FontSizeNum)
 

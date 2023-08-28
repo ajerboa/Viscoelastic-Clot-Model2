@@ -15,19 +15,19 @@ Running the model code requires MATLAB R2021a or newer (recommendation). Install
 4. Estimated run time is less than a minute for all files.
 
 # Plot Locations
-- plot 1A - TEG_WB_Trauma_Visualization.m
-- plot 2A - NormalPlasmaPlots.m
-- plot 2B - NormalPlasmaPlots.m
-- plot 3B - TEG_Plasma_model_Validation5normal.m
-- plot 4A - TEG_Plasma_model_Validation5normal.m
-- plot 4C - TEG_FF_Fibrinogen.m
-- plot 4D - TEG_FF_Fibrinogen.m
-- plot 5A - TEG_WB_estimation6Param.m
-- plot 6A - TEG_WB_model_Validation_using5normal.m
-- plot 6C - PlotGen_FitVsProperties.m
-- plot 7A-D - TEG_PlateletMapping.m
-- plot 8A - RapidTEG_vs_CNTEG.m
-- plot 8B - Maxwell_Model_plot.m
+- plot 2A - TEG_WB_Trauma_Visualization.m
+- plot 3A - NormalPlasmaPlots.m
+- plot 3B - NormalPlasmaPlots.m
+- plot 4B - TEG_Plasma_model_Validation5normal.m
+- plot 5A - TEG_Plasma_model_Validation5normal.m
+- plot 5C - TEG_FF_Fibrinogen.m
+- plot 5D - TEG_FF_Fibrinogen.m
+- plot 6A - TEG_WB_estimation6Param.m
+- plot 7A - TEG_WB_model_Validation_using5normal.m
+- plot 7C - PlotGen_FitVsProperties.m
+- plot 8A-D - TEG_PlateletMapping.m
+- plot 9A - RapidTEG_vs_CNTEG.m
+- plot 9B - Maxwell_Model_plot.m
 
 # Software License
 ©Copyright 2023 University of Florida Research Foundation, Inc. All Commercial Rights Reserved.
